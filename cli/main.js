@@ -2,5 +2,5 @@
 
 const { exec, loadLocalConfig } = require("./helpers");
 
-// loadLocalConfig();
+loadLocalConfig();
 exec("yarn strapi develop");
