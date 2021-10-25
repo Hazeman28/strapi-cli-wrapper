@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
+  "bin": {
+    "develop": "./cli/develop.js"
+  },
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,20 +14,24 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "jet-logger": "^1.0.6",
+    "knex": "0.21.18",
+    "mime-types": "^2.1.27",
+    "pg": "8.5.1",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
-    "strapi-utils": "3.6.8",
-    "strapi-plugin-content-type-builder": "3.6.8",
-    "strapi-plugin-content-manager": "3.6.8",
-    "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-plugin-email": "3.6.8",
-    "strapi-plugin-upload": "3.6.8",
-    "strapi-plugin-i18n": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
-    "knex": "0.21.18",
-    "pg": "8.5.1",
-    "mime-types": "^2.1.27",
-    "strapi-plugin-graphql": "3.6.8"
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-graphql": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-utils": "3.6.8",
+    "yargs": "^17.2.1"
   },
   "author": {
     "name": "A Strapi developer"
