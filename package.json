@@ -1,7 +1,6 @@
 {
-  "name": "strapi-cli-wrapper",
-  "private": true,
-  "version": "0.1.0",
+  "name": "strapi-cli-wrapper-test",
+  "version": "0.1.4",
   "description": "A Strapi application",
   "bin": "./cli/main.js",
   "scripts": {
